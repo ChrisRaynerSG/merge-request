@@ -53,4 +53,12 @@ public class ProgrammingLanguage {
     public void setUsers(List<User> users) {
         this.users = users;
     }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
 }
